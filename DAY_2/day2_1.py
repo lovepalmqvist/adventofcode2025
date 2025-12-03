@@ -19,6 +19,6 @@ def process_data(data):
     return invalid
   
   
-data = read_data('data.txt')
+data = read_data('DAY_2/data.txt')
 result = process_data(data)
 print(result)

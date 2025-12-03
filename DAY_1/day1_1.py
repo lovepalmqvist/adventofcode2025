@@ -20,6 +20,6 @@ def process_data(data):
                 tot += 1
     return tot
 
-data = read_data('data.txt')
+data = read_data('DAY_1/data.txt')
 result = process_data(data)
 print(f"Final result: {result}")
